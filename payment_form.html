@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment form</title>
+</head>
+<body>
+    <form action="bhavyamarya2002@gmail.com" method="post" enctype="text/plain">
+        <h1>payment form</h1>
+        <p>required fields are followed by *</p>
+        <h2>contact information</h2>
+        <p>name: *<input type="text" name="name" required></p>
+        <fieldset>
+            <legend>Gender *</legend>
+            <p>
+                male<input type="radio" name="gender" id="M" required><br>
+                female<input type="radio" name="gender" id="F" required><br>
+                other<input type="radio" name="gender" id="N" required><br>
+            </p>
+        </fieldset>
+        <p><label>Address: </label><textarea name="address" id="address" cols="100" rows="5"></textarea></p>
+        <p>email: *<input type="email" name="email" id="email" required placeholder="email"></p>
+        <p>pincode: *<input type="number" name="pincode" id="pincode" required></p>
+        <h2>payment information</h2>
+        <p>Card type: *
+            <select name="card_type" id="card_type" required>
+                <option value="">--Select a card type--</option>
+                <option value="visa">visa</option>
+                <option value="mastercard">mastercard</option>
+                <option value="rupay">rupay</option>
+            </select>
+        </p>
+        <p>card number: *<input  type="number" name="card_number" id="card_number" required></p>
+        <p>expiration date: *<input type="date" name="exp_date" id="exp_date" required></p>
+        <p>CVV: *<input type="password" name="cvv" id="cvv" required></p>
+        <input type="submit" value="Pay now"> <input type="reset" value="reset">
+        <br>
+        <input type="color">
+        <input type="file">
+        <input type="hidden">
+        <input type="url">
+        <input type="search">
+        <input type="time">
+        <input type="range">
+    </form>>
+</body>
+</html>
